@@ -43,7 +43,6 @@ const ChatClient: FC<chatClientProps> = ({ companion }) => {
       content: input,
     };
     setMessages((current) => [...current, userMessage]);
-    debugger;
     handleSubmit(e);
   };
   return (

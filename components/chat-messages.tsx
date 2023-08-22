@@ -43,7 +43,7 @@ const ChatMessages: FC<ChatMessagesProps> = ({
       {messages.map((message) => (
         <ChatMessage
           key={message.content}
-          src={message.src}
+          src={companion.src}
           role={message.role}
           content={message.content}
         />
